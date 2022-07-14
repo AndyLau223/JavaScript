@@ -3,12 +3,19 @@ let currentResult = defaultResult;
 let result;
 
 function add(num1, num2) {
-  const result = num1 + num2;
-  return result;
+  const currentResult = currentResult + userInput.value;
 }
+
+function subtract() {}
+
+function subtract() {}
+
+addBtn.addEventListener('click', add);
+
+subtractBtn.addEventListener('click', subtract);
+
+multiplyBtn.addEventListener('click');
 
 currentResult = add(1, 2);
 
-let calculationDescription = `(${defaultResult} + 10) * 3 / 2 - 1`;
-
-outputResult(currentResult, calculationDescription);
+outputResult(currentResult, '');
